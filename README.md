@@ -4,30 +4,30 @@ Este projeto tem como objetivo fornecer uma **visualização geográfica interat
 
 ## 🎯 Objetivos
 
-- Visualizar em mapa interativo as entregas feitas por cada hub
-- Analisar o volume de entregas por região de forma segmentada
-- Permitir filtros dinâmicos por hub para tomada de decisão
-- Prover um painel profissional para uso corporativo
+- Visualizar em mapa interativo as entregas feitas por cada hub  
+- Analisar o volume de entregas por região de forma segmentada  
+- Permitir filtros dinâmicos por hub para tomada de decisão  
+- Prover um painel profissional para uso corporativo  
 
 ---
 
 ## 📊 Funcionalidades
 
-- **Mapa interativo com pontos de entrega e hubs**
-  - Cada entrega é colorida conforme sua região
-  - Os hubs possuem destaque visual diferenciado
+- **Mapa interativo com pontos de entrega e hubs**  
+  - Cada entrega é colorida conforme sua região  
+  - Os hubs possuem destaque visual diferenciado  
 
-- **Gráfico de barras por região**
-  - Representa a quantidade de entregas por hub
-  - Cores alinhadas com o mapa para consistência visual
+- **Gráfico de barras por região**  
+  - Representa a quantidade de entregas por hub  
+  - Cores alinhadas com o mapa para consistência visual  
 
-- **Métricas principais**
-  - Total de entregas
-  - Total de hubs ativos
-  - Total de regiões atendidas
+- **Métricas principais**  
+  - Total de entregas  
+  - Total de hubs ativos  
+  - Total de regiões atendidas  
 
-- **Filtro por região**
-  - Permite selecionar um hub específico para análise dedicada
+- **Filtro por região**  
+  - Permite selecionar um hub específico para análise dedicada  
 
 ---
 
@@ -36,9 +36,16 @@ Este projeto tem como objetivo fornecer uma **visualização geográfica interat
 - [Python 3.10+](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
 - [Pandas](https://pandas.pydata.org/)
-- [Altair](https://altair-viz.github.io/)
 - [Geopy](https://geopy.readthedocs.io/)
 - [Matplotlib (coloração)](https://matplotlib.org/)
+
+---
+
+## 🌐 Acesse o Projeto Online
+
+Você pode visualizar o painel completo diretamente via Streamlit Cloud:
+
+🔗 **[Clique aqui para acessar o projeto em deploy](https://nome-do-projeto.streamlit.app)**
 
 ---
 
@@ -46,5 +53,5 @@ Este projeto tem como objetivo fornecer uma **visualização geográfica interat
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
-cd nome-do-projeto
+git clone https://github.com/Vidalhk/Projeto_logistica.git
+cd Projeto_logistica
