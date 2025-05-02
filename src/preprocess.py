@@ -12,7 +12,7 @@ def haversine(lon1, lat1, lon2, lat2):
     return R * 2 * atan2(sqrt(a), sqrt(1 - a))
 
 # Carrega JSON
-with open(r'C:\Users\luiz_\Documents\Projetos_Analista_de_Dados\Projeto_Transporte\projeto_transporte\dados\deliveries.json', encoding='utf8') as f:
+with open(r'C:\Projetos\Portfolio\Projeto_Transporte\data\raw\deliveries.json', encoding='utf8') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
@@ -42,4 +42,4 @@ df_final['distance_km'] = df_final.apply(
 )
 
 # Salva como Parquet
-df_final.to_parquet('dados_processados.parquet', index=False)
+df_final.to_parquet(r'C:\Projetos\Portfolio\Projeto_Transporte\data\processed\dados_processados.parquet', index=False)

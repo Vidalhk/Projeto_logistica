@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import altair as alt
-import warnings
 
 # === Configuração da Página ===
 st.set_page_config(page_title="Painel Logístico", layout="wide")
@@ -10,7 +9,7 @@ st.set_page_config(page_title="Painel Logístico", layout="wide")
 # === Carregamento do Dataset Pré-processado ===
 @st.cache_data
 def load_data():
-    return pd.read_parquet(r'C:\Users\luiz_\Documents\Projetos_Analista_de_Dados\Projeto_Transporte\streamlit\dados_processados.parquet')
+    return pd.read_parquet(r'C:\Projetos\Portfolio\Projeto_Transporte\data\processed\dados_processados.parquet')
 
 df = load_data()
 
