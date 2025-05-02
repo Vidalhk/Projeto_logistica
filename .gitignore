@@ -1,0 +1,48 @@
+# created by virtualenv automatically
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Arquivos de log ou debug
+*.log
+
+# Dados brutos ou sensíveis
+data/raw/
+data/external/
+*.csv
+*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais
+.env
+.env.*
+
+# Arquivos do Poetry (lock já pode ser incluído)
+poetry.lock
+
+# Arquivos do Streamlit
+.streamlit/secrets.toml
+
