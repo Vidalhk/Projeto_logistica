@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "projeto-transporte"
+name = "Projeto-logistica"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Luiz Vidal <vidalhk@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

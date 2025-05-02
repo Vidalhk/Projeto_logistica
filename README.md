@@ -45,7 +45,7 @@ Este projeto tem como objetivo fornecer uma **visualização geográfica interat
 
 Você pode visualizar o painel completo diretamente via Streamlit Cloud:
 
-🔗 **[Clique aqui para acessar o projeto em deploy](https://nome-do-projeto.streamlit.app)**
+🔗 **[Clique aqui para acessar o projeto em deploy](https://projetologistica.streamlit.app)**
 
 ---
 
